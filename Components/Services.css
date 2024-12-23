@@ -1,0 +1,24 @@
+.wrapper{
+    height: 100vh;
+    padding: 4vh;
+ 
+}
+#head2{
+    padding-left: 5vh;
+    color: royalblue;
+}
+.wrapper ul{
+    margin: 5vh 0;
+    font-weight: bold;
+}
+.wrapper li{
+    list-style: none;
+}
+.wrapper h2{
+    text-decoration: underline;
+    color: red;
+}
+.wrapper p{
+    font-size:large;
+    color: darkgreen;
+}

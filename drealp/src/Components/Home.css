@@ -1,0 +1,288 @@
+.body {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    padding: 0vh 1vh;
+font-family: 'Poppins';
+position: relative;
+
+
+}
+
+.main {
+    height: 100vh;
+    width: 100%;
+  display: flex;
+position: relative;
+  justify-content: end;
+  
+}
+
+
+#h1{
+    font-weight: bolder;
+}
+
+.famous {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+ 
+}
+
+.left {
+    width: 50%;
+    height: 70vh;
+    padding: 5vw ;
+    padding-right: 20vw;
+    transform:translateX(0vh);
+    color:black;
+  
+    
+}
+.left1 {
+
+    width: 50%;
+    height:80vh;
+    padding: 5vw 8vw;
+ 
+
+   
+}
+#btn button{
+    background-color:black;
+    margin: 20vh 0;
+}
+.left1 h1{
+   
+    font-weight: bolder;
+}
+.right1 {
+ padding: 2vh 2vh;
+    width: 50%;
+    height: 80vh;
+   
+   
+   
+   
+}
+.main {
+    background-image: url('image.jpg');
+    background-size: cover;
+ filter: brightness(0.3);
+   display: flex;
+   color: white;
+   flex-direction: column;
+   justify-content: start;
+   align-items: center;
+   position: relative;
+ 
+  
+}
+.content{
+    width: 90%;
+    position: absolute;
+    top: 40%;
+  
+    padding: 0 10vh;
+
+    height: 100%;
+   /* animation-name :bold ;
+   animation-duration: 5s;
+   animation-iteration-count: infinite; */
+}
+#our{
+ margin-top: 10vh;
+ font-weight: bold;
+  
+}
+.body p{
+  font-size: x-large;
+  font-weight: bold;
+}
+.famous p {
+  font-size: x-large;
+  font-weight: bold;
+}
+@media (max-width:600px)
+{  
+  #content{
+    width: 100%;
+   height: 100%;
+ left: 0%;
+    position: absolute;
+    top: 20%;
+    z-index: -1;
+   
+  
+   
+   
+  }
+  #main{
+   display:none;
+   position: absolute;
+   z-index: -1;
+  
+  }
+  #our{
+    margin-top: 110vh;
+  }
+ 
+  #slid{
+    width: 100%;
+    position: absolute;
+    left: 10px;
+  }
+  #h3{
+    width: 100%;
+    position: absolute;
+    top: 25%;
+    left:2px;
+  }
+  #main{
+   height: 100vh;
+    display: flex;
+    justify-content: start;
+  }
+  .slid h1{
+    color: white; 
+    font-size:x-small;    
+    }
+    .content h3{
+        width: 100%;
+        
+    }
+    .main {
+        height: 100vh;
+        width: 100%;
+      display: flex;
+      flex-direction: column;
+    position: relative;
+  
+      
+    }
+   .body{
+    display: flex;
+    width: 100%;
+    height: 200vh;
+    flex-direction: column;
+    margin-bottom: 20vh;
+   }
+   .famous{
+    width: 100%;
+    height: 200vh;
+    display: flex;
+    flex-direction: column;
+   }
+  #one{
+    width: 100%;
+    height: 170vh;
+    margin-left: 5vh;
+  }
+  #two{
+    width: 100%;
+    height: 100vh;
+   
+  }
+  #three{
+    width: 100%;
+    height: 200vh;
+  }
+  #four{
+    width: 100%;
+    margin-left:5vh;
+    height: 100vh;
+
+  }
+ #card{
+    display: flex;
+   
+   flex-direction: column;
+   justify-content: start;
+   align-self: start;
+  height: 270vh;
+   
+  
+   }
+}
+
+.content h1{
+color: white;
+ 
+    font-size: 10vh;
+    font-weight: bolder;
+    filter: none;
+    
+}
+.content p{
+    padding: 4vh 15vh;
+    font-weight: bolder;
+    color: white;
+
+}
+.home{
+    box-shadow: 5vh 5vh 40vh black;
+}
+
+.right {
+ 
+    width: 50%;
+    height:70vh;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+
+.element {
+    display: flex;
+    justify-content: space-around;
+    height: 80vh;
+    padding: 5vh;
+    
+}
+#btn  button{
+   width: 18vh;
+   margin: 5vh 0;
+   background-color:black;
+   font-size: large;
+   border: none;
+   border-radius: 1vh;
+   color: white;
+   height: 8vh;
+}
+.content{
+height: 25vh;
+ 
+}
+.cardbox{
+   box-shadow: 3vh 5vh 20vh black;
+}
+.frames{
+    height: 600px;
+   display: flex;
+   overflow: hidden;
+    width: 100%;
+}
+.slider{
+    height: 600px;
+   display: flex;
+  
+    width: 100%;
+}
+#famous{
+  margin: 1vh 0;
+font-size: 10vh;
+
+}
+#four{
+  margin-top: 4vh;
+}
+#three{
+  margin-top: 9vh;
+}
+@media (max-width:600px)
+{
+
+}

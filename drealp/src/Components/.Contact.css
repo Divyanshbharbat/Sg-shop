@@ -1,0 +1,111 @@
+.bigcontainer{
+    height: 100vh;
+    width: 100%;
+    font-family: 'Poppins';
+    display: flex;
+}
+@media (max-width:600px) {
+    .bigcontainer{
+        height: 220vh;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+    }
+   .bigcontainer .side {
+        width: 100%;
+        height: 150vh;
+    }
+   .bigcontainer .opposite{
+        width: 100%;
+    }
+  .opposite .form{
+        width: 110%;
+     
+    }
+   .form .message{
+        width: 30vh;
+    }
+}
+.side{
+    height: 100vh;
+    width: 50%;
+    background-color: lightgreen;
+  padding:2vh 5vh;
+}
+
+.opposite{
+    height: 100vh;
+    width: 50%;
+   color: rgb(9, 0, 0);
+   background-color: rgb(85, 80, 80);
+    padding: 2vh 0;
+}
+.form{
+display: flex;
+justify-content: start;
+align-items: center;
+flex-direction: column;
+
+height: 80vh;
+
+
+}
+.input5 input:focus{
+    background-color: white;
+    color:black;
+}
+.input5 input{
+    height: 6vh;
+    width: 30vh;
+   background-color: #eaeaea;
+   border: none;
+ margin: 2vh 0;
+ padding-left: 1vh;
+ border-radius: 1vh;
+}
+.message{
+   height: 30vh;
+   width: 80%;
+   padding-left: 2vh ;
+   background-color: #eaeaea;
+   border: none;
+   border-radius: 1vh;
+}
+.message:focus{
+    background-color: black;
+    color:white;
+}
+.class{
+    border: 1px solid;
+    width: 60%;
+    height: 85vh;
+    padding: 2vh;
+    background-color: black;
+}
+.address{
+margin: 5vh;
+}
+.email{
+    margin: 5vh;
+}
+.mobile{
+    margin: 5vh;
+}
+.side img{
+    margin: 0 2vh;
+}
+.extra
+{
+    margin: 6vh 0;
+}
+.red{
+    color: red;
+}
+.button button{
+    color: black;
+    background-color: white;
+    margin: 2vh 0;
+    height: 5vh;
+    border-radius: 1vh;
+    width: 15vh;
+}

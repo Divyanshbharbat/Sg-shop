@@ -1,0 +1,174 @@
+.wrap{
+ height: 465vh;
+ width: 100%;
+ padding: 0 4vh;
+}
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.row1{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+}
+@media (max-width:600px) {
+    .wrap{
+        height: 100%;
+    }
+    .row1{
+
+    }
+  .wrap  .row2{
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+    }
+ .wrap .row2  .word{
+        width: 100%;
+        height: 200vh;
+    }
+ .wrap  .row2 .pic{
+        width: 100%;
+    }
+
+
+
+  .wrap  .row3{
+        display: flex;
+        flex-direction: column;
+        height: 200vh;
+    }
+ .wrap .row3  .word{
+        width: 100%;
+        height: 200vh;
+    }
+ .wrap  .row3 .pic{
+        width: 100%;
+    }
+
+
+
+
+    .wrap  .row4{
+        display: flex;
+        flex-direction: column;
+        height: 420vh;
+    }
+ .wrap .row4  .word{
+        width: 100%;
+        height: 200vh;
+    }
+ .wrap  .row4 .pic{
+        width: 100%;
+        height: 30vh;
+    }
+    .wrap  .row4 .pic img{
+        height: 30vh;
+    }
+
+}
+
+.row1 .word{
+    height: 80vh;
+    width: 50%;
+ 
+}
+.row1.pic{
+    height: 80vh;
+    width: 50%;
+}
+
+
+
+.row2{
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.row2 .word{
+    height: 90vh;
+    width: 50%;
+   padding: 3vh 2vh;
+
+ 
+}
+.row2 h3{
+    font-size: larger;
+}
+.row2 h1{
+    font-weight: bold;
+}
+.row2.pic{
+    height: 90vh;
+    width: 50%;
+}
+
+.row3{
+    height: 80vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+
+    
+}
+.row3 .word{
+    height: 80vh;
+    width: 50%;
+    padding: 3vh 2vh;
+    
+}
+.row3.pic{
+    height: 80vh;
+    width: 50%;
+}
+.row3 h3{
+    font-size: larger;
+}
+.row3 h1{
+    font-weight: bold;
+}
+.row3.pic{
+    height: 120vh;
+    width: 50%;
+}
+
+
+
+
+
+
+.row4{
+    height: 201vh;
+    width: 100%;
+    display: flex;
+    
+}
+.row4 .word{
+    height: 200vh;
+
+    width: 50%;
+    padding: 3vh 2vh;
+}
+.row4.pic{
+    height: 200vh;
+    width: 50%;
+}
+.row4 h3{
+    font-size: larger;
+}
+.row4 h1{
+    font-weight: bold;
+    font-size: x-large;
+}
+.row4.pic{
+    height: 80vh;
+    width: 50%;
+}
+.row4 li{
+    list-style: none;
+}

@@ -1,0 +1,46 @@
+.footer{
+    height: 35vh;
+    background-color:black;
+    display: flex;
+    padding: 5vh 0;
+    justify-content: space-around;
+}
+.company{
+    height: 10vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+.gethelp{
+    height: 10vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+.onlineshop{
+    height: 10vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+.followus{
+    height: 10vh;
+    width: 30vh;
+    display: flex;
+    flex-direction: column;
+}
+.footer h1{
+    color: white;
+    font-size:medium;
+    text-decoration: underline solid rgb(236, 21, 226);
+}
+.footer p{
+    color:rgb(189, 181, 181);
+    
+    font-size: x-small;
+}
+@media (max-width:600px) {
+    .footer{
+        height:45vh;
+    }
+}

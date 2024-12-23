@@ -1,0 +1,89 @@
+.column2{
+    height: 15vh;
+    display: flex;
+justify-content: space-around;
+  background-color: white;
+ color: black;
+  
+    padding: 2vh 4vh;
+    margin: 10px 0;
+}
+.column img{
+    height: 90px;
+
+    padding: 1vh 0;
+}
+.column h2{
+  
+    display: flex;
+    align-items: center;
+}
+.giantbox{
+    height: 100%;
+    padding: 3vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+    
+}
+.square{
+    height:160vh;
+    padding: 3vh;
+    border: 1px solid;
+    width: 40%;
+    background-color: black;
+    color: white;
+   
+}
+@media (max-width:600px) {
+    .square{
+        width: 100%;
+    }
+}
+.name{
+    padding-top: 3vh;
+    font-size: larger;
+}
+.total{
+  
+    display: flex;
+    margin: 3vh 0;
+    justify-content: end;
+}
+.intake input{
+height: 5vh;
+background-color:white;
+border: none;
+margin: 0.5vh;
+padding-left: 1vh;
+
+}
+textarea{
+    width: 98%;
+    height: 20vh;
+    padding-left: 1vh;
+}
+.btn2 {
+background-color: aqua;
+height: 8vh;
+width: 98%;
+}
+.btn2 button{
+    background-color:white;
+  color: black;
+  font-size: larger;
+  font-weight: bold;
+   border: none;
+   height: 100%;
+   width: 100%;
+}
+.color{
+    color: greenyellow;
+}
+.price{
+
+    font-size: 3vh;
+    display: flex;
+    align-items: center;
+}
